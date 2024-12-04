@@ -1,0 +1,592 @@
+    1  uname
+    2  clear
+    3  exit
+    4  ls
+    5  ./ VBoxLinuxAdditions.run
+    6  ./VBoxLinuxAdditions.run
+    7  sudo ./VBoxLinuxAdditions.run
+    8  sudo userod -aG vboxsf curso07
+    9  sudo usermod -aG vboxsf curso07
+   10  exit
+   11  ld
+   12  ls
+   13  fish
+   14  sudo apt update
+   15  sudo apt autoremove
+   16  exit
+   17  ls
+   18  xrandr
+   19  exit
+   20  git
+   21  exit
+   22  ls
+   23  ls -la
+   24  ls
+   25  ls -la
+   26  clear
+   27  sudo apt install openjdk-21-jdk
+   28  java --version
+   29  javac --version
+   30  sudo apt install libx11-doc
+   31  sudo apt remove libx11-doc
+   32  clear
+   33  sudo apt update
+   34  sudo apt upgrade
+   35  clear
+   36  ls
+   37  ls -la
+   38  clear
+   39  sudo apt install maven
+   40  mvn --version
+   41  ls
+   42  cd Desktop
+   43  ls -la
+   44  mkdir proyectos
+   45  ls
+   46  cd proyectos/
+   47  ls
+   48  ls -la
+   49  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+   50  ls
+   51  cd my-app/
+   52  ls
+   53  cd src
+   54  ls
+   55  cd main
+   56  ls
+   57  cd java
+   58  ls
+   59  cd com
+   60  ls
+   61  cd..
+   62  cd ..
+   63  clear
+   64  mvn history
+   65  ls
+   66  history
+   67  ll
+   68  l
+   69  ll
+   70  mvn compile
+   71  mvn asdasd
+   72  clear
+   73  cd ..
+   74  cd Downloads/
+   75  ls
+   76  sudo dpkg -i code_1.94.2-1728494015_amd64.deb 
+   77  code
+   78  exit
+   79  sudo apt install git
+   80  exit
+   81  cd Desktop/proyectos/my-app/
+   82  git config --global user.email "alejandro.caldi@gmail.com
+   83  "
+   84  git config --global user.name "Alejandro Caldi"
+   85  git config --global user.email "alejandro.cald@gmail.com"
+   86  git config --global user.name "curso07"
+   87  git status
+   88  git log
+   89  git backlog
+   90  git --help
+   91  git show
+   92  mvn clean
+   93  clear
+   94  sudo apt update
+   95  sudo apt upgrade
+   96  exit
+   97  git add .
+   98  git commit -m "Primer ejercicio de objetos"
+   99  git remote
+  100  git remote -v
+  101  sudo apt update
+  102  sudo apt upgrade
+  103  sudo apt cñean
+  104  sudo apt clean
+  105  sudo apt autoremove
+  106  exit
+  107  git pull
+  108  clear
+  109  git pull
+  110  git stash
+  111  sudo apt update
+  112  exit
+  113  mvn archetype:generate -DgroupId=es.santander.ascender -DartifactId=proyecto02 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+  114  cd proyecto02/
+  115  ll
+  116  exit
+  117  git status
+  118  clear
+  119  mvn package 
+  120  java -jar target/proyecto02-1.0-SNAPSHOT.jar 
+  121  clear
+  122  sudo apt update
+  123  apt list --upgradable
+  124  sudo apt upgrade
+  125  teamviewer
+  126  clear
+  127  ls
+  128  cd Downloads/
+  129  ls
+  130  sudo dpkg -i teamviewer_15.59.3_amd64.deb 
+  131  sudo apt install libminzip1
+  132  sudo apt install libminzip
+  133  sudo apt install libminzip1
+  134  sudo apt install libminizip1
+  135  sudo dpkg -i teamviewer_15.59.3_amd64.deb 
+  136  exit
+  137  ls
+  138  cd Desktop/
+  139  cd proyectos/
+  140  git clone https://github.com/AlejandroCaldi/proyecto03.git
+  141  exit
+  142  mvn test
+  143  clear
+  144  clear
+  145  mvn test
+  146  sudo nano /usr/local/bin/crear_proyecto_maven.sh
+  147  ls /usr/loca/bin/
+  148  ls /usr/local/bin/
+  149  cat /usr/local/bin/crear_proyecto_maven.sh 
+  150  ll
+  151  cd Desktop/
+  152  ls
+  153  cd proyecto
+  154  cd proyectos/
+  155  sudo chmod +x /user/local/bin/crear_proyecto_maven.sh
+  156  sudo chmod +x /usr/local/bin/crear_proyecto_maven.sh
+  157  crear_proyecto_maven.sh proyecto04
+  158  sudo xed /usr/local/bin/crear_proyecto_maven.sh 
+  159  crear_proyecto_maven.sh 04
+  160  exit
+  161  cd ..
+  162  mvn archetype:generate -DgroupId=es.santander.ascender -DartifactId=proyecto03 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+  163  clear
+  164  sudo apt update
+  165  apt list --upgradable
+  166  sudo apt upgrade
+  167  exit
+  168  clear
+  169  ll
+  170  ls
+  171  clear
+  172  sudo apt update
+  173  sudo apt upgrade
+  174  y
+  175  clear
+  176  exit
+  177  mvn test
+  178  clear
+  179  mvn test
+  180  mvn clean test compile
+  181  mvn compile
+  182  mvn test
+  183  cd proyecto03
+  184  mvn test
+  185  clear
+  186  sudo apt update
+  187  sudo apt upgrade
+  188  exit
+  189  ll
+  190  git init
+  191  cd ..
+  192  git clone https://github.com/AlejandroCaldi/arrays.git
+  193  cd proyecto04
+  194  ll
+  195  git clone https://github.com/AlejandroCaldi/arrays.git
+  196  ll
+  197  crear_proyecto_maven.sh proyecto04
+  198  crear_proyecto_maven.sh 04
+  199  exit
+  200  clear
+  201  cd target
+  202  java -jar proyecto04-1.0-SNAPSHOT.jar 
+  203  cd ..
+  204  mvn clean test complie package
+  205  mvn clean test compile package
+  206  cd target
+  207  java -jar proyecto04-1.0-SNAPSHOT.jar 
+  208  cd..
+  209  mvn clean test compile package
+  210  cd ..
+  211  mvn clean test compile package
+  212  cd target
+  213  cd ..
+  214  
+  215  java -cp target/app.jar es.santander.ascender.proyecto04.App
+  216  cd target
+  217  java -cp bin es.santander.ascender.proyecto04.App
+  218  java -cp proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  219  cd..
+  220  clear
+  221  java -cp /target/proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  222  java -cp ./target/proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  223  java -cp target/proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  224  java -cp 
+  225  java -cp /target/proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  226  java target proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  227  cd target
+  228  java -cp target proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  229  clear
+  230  java -cp proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  231  cd..
+  232  mvn clean test compile package
+  233  cd target/
+  234  ñls
+  235  ls
+  236  java -jar proyecto04-1.0-SNAPSHOT.jar 
+  237  clear
+  238  mvn clean test compile package
+  239  cd target
+  240  java -jar proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  241  java -cp proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  242  mvn clean test compile package
+  243  cd ..
+  244  mvn clean test compile package
+  245  cd target
+  246  java -cp proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  247  cd ..
+  248  mvn clean test compile package
+  249  cd target
+  250  java -cp proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  251  cd ..
+  252  mvn clean test compile package
+  253  cd target
+  254  java -cp proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  255  cd ..
+  256  git status
+  257  git commit -m "borrado de un comment"
+  258  git add -
+  259  git add .
+  260  git commit -m "borrado de un comment"
+  261  git push
+  262  clear
+  263  mvn clean test compile package
+  264  cd target
+  265  java -cp proyecto04-1.0-SNAPSHOT.jar es.santander.ascender.proyecto04.App
+  266  cd..
+  267  clear
+  268  sudo apt update
+  269  sudo apt upgrade
+  270  sudo apt autoremove
+  271  sudo apt clean
+  272  exit
+  273  sudo apt install curl
+  274  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+  275  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+  276  sudo apt update
+  277  sudo apt install brave-browser
+  278  brave
+  279  clear
+  280  sudo apt update
+  281  sudo apt upgrade
+  282  exit
+  283  sudo apt update
+  284  sudo apt upgrade
+  285  exit
+  286  sudo apt update
+  287  exit
+  288  sudo apt update
+  289  sudo apt upgrade
+  290  exit
+  291  mvn clean test compile package
+  292  cd target 
+  293  java -cp es.santander.ascender.proyecto05.App
+  294  java -cp proyecto05-1.0-SNAPSHOT.jar es.santander.ascender.proyecto05.App
+  295  git stash
+  296  mvn clean test compile package
+  297  clear
+  298  git checkout -b desarrolloAle
+  299  gti checkout main
+  300  git checkout main
+  301  git stash
+  302  gir branch
+  303  git branch
+  304  git checkout desarrolooAle
+  305  git checkout desarrolloAle
+  306  clear
+  307  sudo apt update
+  308  sudo apt upgrade
+  309  exit
+  310  git clone https://github.com/AlejandroCaldi/proyecto051.git
+  311  exit
+  312  clear
+  313  c,ear
+  314  clear
+  315  git stash
+  316  clear
+  317  clean
+  318  clear
+  319  git stash
+  320  mvnclean test compile package
+  321  mvn clean test compile package
+  322  cd target
+  323  java -cp proyecto051-1.0-SNAPSHOT.jar es.santander.ascender.proyecto051
+  324  java -cp proyecto051-1.0-SNAPSHOT.jar es.santander.ascender.proyecto051.App
+  325  clear
+  326  cd ..
+  327  clear
+  328  sudo apt update
+  329  sudo apt upgrade
+  330  sudo apt autoremove
+  331  exit
+  332  cd Desktop/proyectos/
+  333  git clone https://github.com/AlejandroCaldi/proyecto06.git
+  334  sudo apt update
+  335  sudo apt upgrade
+  336  sudo apt autoremove
+  337  exit
+  338  git add .
+  339  sudo apt update
+  340  sudo apt upgrade
+  341  sudo apt autoremove
+  342  apt clean
+  343  exit
+  344  sudo apt update
+  345  sudo apt upgrade
+  346  exit
+  347  sudo apt update
+  348  sudo apt upgrade
+  349  exit
+  350  code .
+  351  mvn compile
+  352  mvn spring-boot:run
+  353  git remote -v
+  354  git remote add origin https://github.com/AlejandroCaldi/proyecto07.git
+  355  git remote -v
+  356  git push -u origin main
+  357  clear
+  358  code .
+  359  mvn spring-boot:run
+  360  clear
+  361  sudo apt update
+  362  sudo apt upgrade
+  363  sudp apt auotoremove
+  364  sudo apt auotoremove
+  365  sudo apt autoremove
+  366  exit
+  367  git clone https://github.com/desarrollo-seguro/proyecto06.git
+  368  exit
+  369  git stash
+  370  git remote -v
+  371  git stash
+  372  git pull
+  373  clear
+  374  exit
+  375  crear_proyecto_maven.sh 08
+  376  cd proyecto08
+  377  git clone https://github.com/AlejandroCaldi/proyecto08.git
+  378  exit
+  379  code .
+  380  cd proyecto08
+  381  code .
+  382  crear_proyecto_maven.sh 08
+  383  exit
+  384  sudo apt update
+  385  sudo apt upgrade
+  386  sudo apt autoremove
+  387  exit
+  388  sudo apt update
+  389  sudoa pt upgrade
+  390  sudo apt upgrade
+  391  sudo apt upgrade --fix-missing
+  392  sudo apt autoremove
+  393  sudo apt upgrade
+  394  sudo apt update
+  395  sudo apt upgrade
+  396  exit
+  397  sudo apt upgrade
+  398  cd Desktop/
+  399  cd proy
+  400  cd proyectos/
+  401  cd proyecto08
+  402  git pudh
+  403  git push
+  404  clear
+  405  ssh-keygen -t ed25519 -C "alejandro.caldi@gmail.com"
+  406  ll
+  407  cd Desktop/
+  408  cd proyectos/
+  409  cd proyecto06
+  410  git push
+  411  cd ..
+  412  ll
+  413  cd proyecto07
+  414  ls
+  415  ll
+  416  git push
+  417  ll
+  418  eval "$(ssh-agent -s)"
+  419  ssh-add ~/.ssh/id_ed25519
+  420  cd Desktop/
+  421  cd proyectos/
+  422  cd proyecto07
+  423  git push
+  424  ssh -T git@github.com
+  425  git push
+  426  git remote set-url origin git@github.com:AlejandroCaldi/proyecto07.git
+  427  git remote -v
+  428  git push
+  429  exit
+  430  sudo apt update
+  431  exit
+  432  code .
+  433  netstat
+  434  ss -plnt
+  435  exit
+  436  sudo apt update
+  437  sudo apt upgrade
+  438  sudo apt remove thunderbird
+  439  clear
+  440  exit
+  441  mvn spring-boot:run
+  442  sudo apt update
+  443  sudo apt upgrade
+  444  exit
+  445  git clone git@github.com:desarrollo-seguro/proyecto09.git
+  446  git clone https://github.com/desarrollo-seguro/proyecto09.git
+  447  mkdir proyecto09
+  448  ll
+  449  cd ..
+  450  cd --
+  451  cd Documents/
+  452  git clone https://github.com/desarrollo-seguro/proyecto09.git
+  453  ll
+  454  mv proyecto09/ ~/Desktop/proyectos/proyecto09A
+  455  ll
+  456  cd ..
+  457  cd Desktop/
+  458  cd proyectos/
+  459  cd prodyecto09A
+  460  cd proyecto09A
+  461  code .
+  462  clear
+  463  sudo apt update
+  464  sudo apt upgrade
+  465  exit
+  466  sudo apt update
+  467  sudo apt upgrade
+  468  exit
+  469  sudo apt update
+  470  sudo apt upgrade
+  471  exit
+  472  code -
+  473  sudo apt update
+  474  sudo apt upgrade
+  475  sudo apt autoremove
+  476  exit
+  477  git clone git@github.com:AlejandroCaldi/proyecto09.git
+  478  git clone https://github.com/AlejandroCaldi/proyecto09.git
+  479  ll
+  480  mv proyecto09/ .
+  481  mv proyecto09/*.* ./*.*
+  482  mv proyecto09/*.* *.*
+  483  ls
+  484  cd proyecto09/
+  485  ll
+  486  mv * ../*
+  487  exit
+  488  code -
+  489  code .
+  490  exit
+  491  mvn spring-boot:run
+  492  git clone https://github.com/AlejandroCaldi/proyecto11.git
+  493  cd proyecto11
+  494  ls
+  495  code .
+  496  sudo apt update
+  497  code .
+  498  cd ..
+  499  code -
+  500  code .
+  501  exit
+  502  code .
+  503  exit
+  504  sudo apt update
+  505  clear
+  506  exit
+  507  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+  508  exit
+  509  code .
+  510  nvm install 22
+  511  node -v
+  512  npm -v
+  513  npm 
+  514  npm update
+  515  node -v
+  516  npm -v
+  517  cd Desktop/proyectos/
+  518  mkdir proyecto13A
+  519  cd proyecto13A/
+  520  ll
+  521  npm init
+  522  cat package.json 
+  523  npm install -g npm@10.9.1
+  524  npm install jquery
+  525  ll
+  526  git init
+  527  nano .gitignore
+  528  git add .
+  529  git status
+  530  code .
+  531  npm install cypress --save-dev
+  532  cat package.json 
+  533  clear
+  534  sudo apt update
+  535  clear
+  536  npx cypress open
+  537  npx cypress run
+  538  clear
+  539  exit
+  540  npm run test
+  541  exit
+  542  sudo apt update
+  543  git stash
+  544  git pull
+  545  exit
+  546  cd Desktop/proyectos/proyecto11
+  547  code .
+  548  sudo apt udpate
+  549  sudo apt update
+  550  sudo apt upgrade
+  551  clear
+  552  exit
+  553  git stash
+  554  git clone git clone https://github.com/AlejandroCaldi/proyecto11.git
+  555  git clone https://github.com/AlejandroCaldi/proyecto11.git
+  556  cd proiyecto11
+  557  cd proyecto11
+  558  code .
+  559  exit
+  560  git stash
+  561  cd Desktop/proyectos/
+  562  ls
+  563  cd proyecto13A
+  564  code . 
+  565  exit
+  566  npm install jquery
+  567  npm fund
+  568  clear
+  569  sudo apt update
+  570  sudo apt upgrade
+  571  sudo apt autoremove
+  572  exit
+  573  npm install --save-dev parcel
+  574  npx parcel index.html 
+  575  mkdir src
+  576  cd src
+  577  mkdir javascript
+  578  cd ..
+  579  npx parcel build /src/javascript/index.js
+  580  npx parcel build src/javascript/index.js
+  581  npx parcel build /src/javascript/index.js
+  582  npx parcel build ./src/javascript/index.js Esto fue lo que funionò para la estructura de archivo(run + build correctos)
+  583  cd proyecto14
+  584  npx parcel build ./src/javascript/index.js
+  585  npx parcel index.html
+  586  npx parcel ./src/index.html
+  587  history
+  588  clear
+  589  history
+  590  history >> historial de comandos para parcel.txt
+  591  history 600 >> historial de comandos para parcel.txt
+  592  history 600 >> "historial de comandos para parcel.txt"
