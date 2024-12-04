@@ -1,13 +1,14 @@
 # proyecto14
 
-Para arrancar el servidor 
-```sh
-npm run server
-```
 
 para reconstruir dependencias
 ```sh
 npm install
+```
+
+Para arrancar el servidor 
+```sh
+npm run server
 ```
 
 Para hacer el build
