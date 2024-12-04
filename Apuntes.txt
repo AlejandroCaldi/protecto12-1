@@ -1,0 +1,102 @@
+agregamos en <script src=jquery con al versión, pide cloudflare, sale de la pagina de jquery"> </script>
+
+Entonces por cada vez que en jQuery 
+
+htps://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery---
+
+Dónde aprender jQuery: w3school tiene uno que está bien para empezar. 
+
+declarar funciones en js:
+
+forma 1:
+
+creo la funciòn y lo que me devuelve lo vuelco en una variable. 
+
+saludar = function() {console.log('Hola Mundo')}
+ y esa función se vuelve método del objeto window. 
+
+forma 2:
+
+
+
+
++++++
+objetos en js (no clase):
+
+miobjeto = {} ya es un objeto. 
+
+miobjeto.valor = 4;
+miobjeto.mostrarValor = function() {console.log('HEl valor es ' + this.valor) } 
+
+Acá el this. es obligatorio.
+
+invocar la function es:
+
+miobjeto.mostrarValor()
+
+Sin parentesis es coher la referencia para geenrar una funciòn análoga. Pero no la ejecución de la lógica :
+
+esto: otrafuncion = miobjeto.mostrarValor
+
+genera una función llamada window.otraFuncion
+
+
+
+document = window.document
+
+
+una vez instalado jquery $ es igual a jquery
+
+
+
+
+
+Recapitulando. creamos proyectoe en remoto. 
+primer comit ahì.
+clonamos
+npm init
+
+En el json de package, pra la version de las dependencias ^ este modificador fija el major
+             ~ este modificador fija el minor
+
+existe separar en dos servidores distintos front y back o ponerlos todoes en el mismo. 
+
+
+En este caso, 04/12/2024, lo hacemos por separado. 
+
+webpack para compilar y empaquetar js
+màs antiguo, gulp y grunt. Entre ellas no eran imcompatibles y problemàticas. 
+Son problema`ticos en tèrminos de seguridad.
+
+Nosotros vamos a usar parcel. 
+
+que se debe instalar; buscando por parceljs.org
+
+lo instalamos con 
+
+npm install --save-dev parcel
+
+--save-dev sirve para que los colegas lo tengan tambièn cuando lo instalen en la misma version. 
+y lo mete en node_modules. Ademàs, para corerlo, voy a tener disponible la posibilidad de correrlo con npx
+
+
+npm install -g parcel. usa el path del SO, pero es para toda la máquina y todo proyecto va a encontrarse con problemas. Adicional, requiere perminos de sudo o administrador. 
+0
+Para temas de desarrollo, es ampliamente preferido de --save-dev
+
+Esto es aun más relevante para cypress. 
+
+Transpilar =/= compilar. 
+
+Implica una transformaciòn de código pero no a codigo de bytemap. En general es para convertir un lenguaje en otro o adapatarlo, en ambos casos para que algun navegador en específico pueda leerlo.'
+
+Al navagador solo le viaja JS- 
+
+
+
+
+
+ 
+
+
+
