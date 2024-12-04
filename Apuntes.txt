@@ -76,7 +76,7 @@ lo instalamos con
 
 npm install --save-dev parcel
 
---save-dev sirve para que los colegas lo tengan tambièn cuando lo instalen en la misma version. 
+--save-dev sirve para que los colegas lo tengan también cuando lo instalen en la misma version. 
 y lo mete en node_modules. Ademàs, para corerlo, voy a tener disponible la posibilidad de correrlo con npx
 
 
@@ -90,7 +90,57 @@ Transpilar =/= compilar.
 
 Implica una transformaciòn de código pero no a codigo de bytemap. En general es para convertir un lenguaje en otro o adapatarlo, en ambos casos para que algun navegador en específico pueda leerlo.'
 
-Al navagador solo le viaja JS- 
+Al navagador solo le viaja JS.
+
+Para empaquetar con parcel o una pàgina en parcel. 
+
+npx parcel index.html --port 3000
+
+Ojo que le cambia el nombre a los archivos .css y .js para el tema de actualización para que se resuelva sobre la marcha. (Cambia también los href y src necesarios para que no rompa. 
+
+Existe npm audite fix para que arregles problemas de seguridad. 
+
+o npm audit a secas para que actualice a todas las dependencias màs nuevas respecto de lo establecido en el package.json. 
+
+por una cuestión de problema de build, parace que el codigo tiene que ir en src. 
+
+ npx parcel build ./src/javascript/index.js
+
+Esto genera la carpeta .dist
+
+si agrego a package.json:
+
+"scripts": {
+    "server": "npx parcel src/index.html",
+    "build": "npx parcel build ./src/javascript/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+Eso me permite correr npm run server o 
+npm run build y correr esas instrucciones automatizadas. Si corremos npm test no va a correr nada porque justamente va a devolver ese echo
+
+En los navegadores en la parte de debugging, dentro de lo que es el área de sources / debuguer se puede ver la estructura de archivo de todo el proyecto. 
+
+Las herramientas de debugging difieren un poco, pero a grandes rasgos tienen lo mismo. 
+
+
+js alert
+
+
+La idea es que no se usen más porque los navegadores tienden a prohibir los mensajes modales para que se evite el tema de infiltración de publicidad. 
+
+Existe alternativa, pero lo vamos a ver después.
+
+
+
+
+
+
+
+
+
+
 
 
 
