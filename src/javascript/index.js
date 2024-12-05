@@ -50,14 +50,37 @@
 
 // para trabajar con el on ready. 
 
-$(document).ready(function() {
-    accionClick = function() {
-        $(this).text("Bébeme");
-    }
+// $(document).ready(function() {
+//     accionClick = function() {
+//         $(this).text("Bébeme");
+//     }
 
-    $("#boton").on("click", accionClick);
+//     $("#boton").on("click", accionClick);
 
-});
+// });
 
 // esto tiene en cuenta los tiempos de carga para que no haya asincronía. 
+// la diferencia entre let y var difiere, let es más reciente y se define como local. 
 
+
+$(document).ready(function() {
+
+    solicitud = {
+        "id" : 1,
+        "nombre": "Juán",
+        "apellido": "Pelotas"
+    }
+
+    let solicitudes = [solicitud, solicitud, solicitud];
+
+    for (i = 0 ; i < solicitudes.length; i++ ) {
+        $("#maestro").append(
+            $("<li>").text(solicitudes[i].nombre + " " + solicitudes[i].apellido)
+        );
+    }
+
+
+    $("#id").val(solicitud.id)
+    $("#nombre").val(solicitud.nombre)
+    $("#apellido").val(solicitud.apellido)
+});
